@@ -15,7 +15,7 @@ function createData(id, ProjectName, StartDate, DueDate, Status, Assign) {
   return { id, ProjectName, StartDate, DueDate, Status, Assign }
 }
 
-const rows = [createData(1, "Adminto Admin v1", "01/01/2017", "26/04/2017", "Released", "Coderthemes"), createData(2, "Adminto Admin v1.1", "01/01/2017", "26/04/2017", "Released", "Adminto admin"), createData(3, "Adminto Admin v1.1", "01/01/2017", "26/04/2017", "Pending", "Coderthemes"), createData(4, "Adminto Frontend v1.1", "01/01/2017", "26/04/2017", "Assign", "Adminto admin"), createData(5, "Adminto Admin v1.3", "01/01/2017", "26/04/2017", "Assign", "Coderthemes")]
+const rows = [createData(1, "Adminto Admin v1", "01/01/2020", "26/04/2020", "Released", "Coderthemes"), createData(2, "Adminto Admin v1.1", "01/01/2020", "26/04/2020", "Released", "Adminto admin"), createData(3, "Adminto Admin v1.1", "01/01/2020", "26/04/2020", "Pending", "Coderthemes"), createData(4, "Adminto Frontend v1.1", "01/01/2020", "26/04/2020", "Assign", "Adminto admin"), createData(5, "Adminto Admin v1.3", "01/01/2020", "26/04/2020", "Assign", "Coderthemes")]
 
 const TableData = () => {
   return (
