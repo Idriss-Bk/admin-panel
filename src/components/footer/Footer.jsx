@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='container flexSB'>
           <div className='legal'>
             <p>
-              2022 © Adminto theme by <span>IDRISS BOUKDIR</span>
+              2020 © Adminto theme by <span>IDRISS BOUKDIR</span>
             </p>
           </div>
           <div className='links flexSB'>
